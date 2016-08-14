@@ -2,11 +2,13 @@ package com.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ImportResource;
 
+@ImportResource("classpath*:/applicationContext.xml")
 @SpringBootApplication
-public class HelloDemoApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HelloDemoApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 }
