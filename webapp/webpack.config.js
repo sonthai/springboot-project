@@ -8,7 +8,7 @@ var config = {
 
     output: {
 	path: buildPath,
-	filename: 'bundle.js',
+	filename: 'client.min.js',
     },
 
     devServer: {
